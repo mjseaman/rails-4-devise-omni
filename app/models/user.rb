@@ -5,7 +5,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   
   SOCIALS = {
-  	foursquare: "Foursquare"
+  	foursquare: "Foursquare",
+  	facebook: "Facebook"
   }
 
   has_many :authorizations

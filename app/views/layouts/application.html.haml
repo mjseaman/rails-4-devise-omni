@@ -19,6 +19,7 @@
         =link_to "Sign In", new_user_session_path
         |
         =link_to "Sign in with Foursquare", user_omniauth_authorize_path(:foursquare)
+        =link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook)
     .flash
       -flash.each do |name, msg|
         =content_tag :div, msg, class: name

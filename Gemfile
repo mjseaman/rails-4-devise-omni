@@ -18,6 +18,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'devise'
 # Omniauth for Oauth
 gem 'omniauth-foursquare'
+gem 'omniauth-facebook'
 
 # Sass and Haml, for pretty markup
 gem 'sass'
