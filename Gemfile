@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Devise for auth
 gem 'devise'
+# Omniauth for Oauth
+gem 'omniauth-foursquare'
 
 # Sass and Haml, for pretty markup
 gem 'sass'
